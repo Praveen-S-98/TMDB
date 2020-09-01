@@ -10,7 +10,7 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <title>TMDb</title>
@@ -37,7 +37,8 @@
                         <h3>{{movie.title}} ({{movie.year}})</h3>
                     </div>
                     <div class="cat-certi-runtime">
-                        <h4>{{movie.category}} | {{movie.certificate}} | {{movie.runtime}} mins</h4>
+                        <h4>{{movie.category}} | {{movie.certificate}}</h4>
+                        <h4>{{movie.runtime}} mins </h4>
                     </div>
                     <div class="rating-plus-image">
                         <div class="rating-img">

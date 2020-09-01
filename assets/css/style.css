@@ -8,11 +8,14 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+.left-side{
+margin-right: 30px;
+}
+
 .nav-wrapper {
     display:flex;
     text-transform: uppercase;
     background-color: #89fc00;
-    height: 3em;
 }
 
 .nav-brand-wrapper {
@@ -163,14 +166,12 @@ font-size: x-large;
 .synopsis-text{
     background-color: #040404;
     color: #fffcff;
-    height: 110px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    height: auto;
+    padding: 10px;
 }
 
 .synopsis {
-    height: 150px;
+    height: auto;
 }
 
 .trailer-cast-wrapper{
@@ -210,4 +211,12 @@ iframe{
 
 .way-back a:hover {
     font-size: 20px;
+}
+
+/* media queries */
+@media(max-width:500px){
+.name{
+    font-size: medium;
+    text-align: center;
+}
 }

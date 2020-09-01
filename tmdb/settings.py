@@ -27,7 +27,7 @@ SECRET_KEY = '&l%uj-tfg)d&7!pzb&4sv4%ftzbme#u@d#w9*ow19krwxcf&3e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['0.0.0.0', 'tmdb-praveen.herokuapp.com']
 
 
 # Application definition

@@ -215,8 +215,17 @@ iframe{
 
 /* media queries */
 @media(max-width:500px){
-.name{
+.name{   
     font-size: medium;
-    text-align: center;
+}
+.nav-brand-wrapper{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.nav-link-wrapper{
+    height: 30px;
+    padding-left: 12px;
+    padding-top: 7px;
+    margin-top: 0px;
 }
 }
